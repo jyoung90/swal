@@ -1,0 +1,5 @@
+<% if @messages %>
+  swal("<%= @messages %>");
+<% else %>
+  window.location.href = '/posts';
+<% end %>
